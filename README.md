@@ -1,25 +1,19 @@
-# Project Title: Django Forms + Bitly Clone Project
+# Django Models + Jobs Board Project
 
-Create a Django Bitly clone integrating forms. Covers setup, model creation, admin integration, URL routing, Tailwind CSS for UI, and form styling with Crispy Forms.
+This GitHub project focuses on building a Jobs Board using Django Models. The project consists of several tutorial videos guiding through various aspects of Django Models and the development of a functional Jobs Board application.
 
-Description:
-This project aims to create a simplified version of Bitly, a popular link shortening service, using Django and integrating form functionalities. It will cover the entire development process, starting from project setup to implementing forms for creating and managing shortened links. Additionally, it will focus on enhancing the user interface with Tailwind CSS and ensuring form styling with Crispy Forms.
+## Tutorial Videos
 
-Project Outline:
+1. **What Are Django Models?** - An introductory video explaining Django Models.
+2. **Job Board Project and App Setup** - Setting up the project and the application.
+3. **Creating Job Posting Model** - Creating the model for job postings.
+4. **Adding Our First Job Posting to the Database** - Adding initial job postings to the database.
+5. **Adding New Field to Job Posting Table** - Extending the job posting model with a new field.
+6. **Grabbing the Active Job Posting in Our View** - Retrieving active job postings in the view.
+7. **Listing Out Active Jobs in Our Template** - Displaying active jobs in the template.
+8. **Adding Filters to the Job Listings to Update Formatting** - Implementing filters for job listings formatting.
+9. **Job Detail Pages** - Creating detail pages for job postings.
+10. **Handling "Does Not Exist" Error for Job Details** - Managing error handling for job detail pages.
+11. **Styling to Our Home And Detail Job Pages** - Adding styling to home and job detail pages.
 
-- First Project Meeting: Initial discussion and planning phase for the project.
-- Setting Up Our Link Shortener Django Project: Configuration of Django project settings and environment setup.
-- Creating Our Link App and Models: Creation of Django app for managing links and defining models for storing link data.
-- Registering Our Link Model with the Admin: Integration of link model with Django admin interface for easy management.
-- Adding Links via the Admin: Demonstration of adding links through the Django admin dashboard.
-- Links View and URL Setup: Setup of URL routes and views for displaying links.
-- Querying the Links from the Database: Implementation of database queries to fetch links for display.
-- Making the Home Page Pretty with Tailwind CSS: Integration of Tailwind CSS to enhance the visual appeal of the home page.
-- Adding Link Shortening Redirect Functionality: Implementation of functionality to redirect shortened links to their original URLs.
-- Intro to Forms: Creating Our First Form: Introduction to forms in Django and initial form creation.
-- Getting the Input Data from the Form: Retrieval of input data submitted through forms.
-- Using Django Forms to Create Our Link Form: Utilization of Django forms for creating forms to add new links.
-- Refactoring to Use Django ModelForms to Create and Save a New Link: Refactoring existing code to leverage Django ModelForms for streamlined form handling.
-- Adding Styling to Our Form with Crispy Forms: Styling enhancement of forms using Crispy Forms library for better user experience.
-
-By following along with this project, users will gain a comprehensive understanding of Django development, including model management, form handling, and integrating CSS frameworks for frontend styling.
+This project serves as a comprehensive guide to Django Models and building a practical Jobs Board application.
